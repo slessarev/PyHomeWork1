@@ -14,9 +14,7 @@ s = input()
 if int(s)%3 != 0 or (int(s)//3)%2 !=0:
      print('Неверное S')
 else:
-    petya_sereja = int(s)//3//2
-    katya = int(s)//3*2
-    print(f"{s} -> {petya_sereja} {katya} {petya_sereja}")
+    print(f"{s} -> {int(s)//3//2}  {int(s)//3*2}  {int(s)//3//2}")
 
 
 
