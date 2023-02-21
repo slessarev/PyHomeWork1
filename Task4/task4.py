@@ -10,9 +10,9 @@ print('Введите длину шоколадки: ', end = '')
 n = int(input())
 print('Введите ширину шоколадки: ', end = '')
 m = int(input())
-print('Введите долек: ', end = ' ')
+print('Введите количество долек: ', end = ' ')
 k = int(input())
-if k==m or k == n or k % n == 0 or k % m == 0:
+if k % n == 0 or k % m == 0:
     print(f"{n} {m} {k} -> yes")
 else:
     print(f"{n} {m} {k} -> no")
